@@ -1,0 +1,45 @@
+# Git
+.git
+.gitignore
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+# Environment files with secrets
+.env
+.env.local
+.env.production
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+# Documentation
+docs/
+*.md
+!README.md
+# Docker
+Dockerfile*
+docker-compose*.yml
+.docker/
+# Static files (will be collected during build)
+staticfiles/
+# Local development
+db.sqlite3
+media/
+# CI/CD
+.github/
+.gitlab-ci.yml
+# Misc
+*.log
+*.tmp
